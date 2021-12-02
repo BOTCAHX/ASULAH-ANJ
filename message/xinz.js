@@ -678,7 +678,7 @@ module.exports = async(xinz, msg, blocked, baterai, _afk, welcome, left) => {
             axios.get(`https://api-ramlan.herokuapp.com/api/checkapikey?apikey=${args[1]}`)
             .then(({data}) =>
             textImg(`${data.message}`))
-            .catch(() => reply(`Apikey invalid, mau buy apikey?\nchat wa.me/6285559240360`))
+            .catch(() => reply(`Apikey invalid, mau buy apikey?\nchat wa.me/6282320830684`))
             }
             break
             case prefix+'ebase64':
